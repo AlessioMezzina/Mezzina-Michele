@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Michele Mezzina — Portfolio</title>
+    <meta name="description" content="Profilo, risultati e documenti di Michele Mezzina." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/Profile_pic.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="bg-decor" aria-hidden="true">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+      <div class="grain"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container row">
+        <a class="brand" href="#top" aria-label="Home">
+          <img class="logo-img" src="assets/Profile_pic.jpeg" alt="Foto profilo di Michele Mezzina" />
+          <span class="title">Michele Mezzina</span>
+        </a>
+        <nav id="site-nav" class="nav" aria-label="Principale">
+          <a href="#about">Chi sono</a>
+          <a href="#experience">Esperienza</a>
+          <a href="#skills">Competenze</a>
+          <a href="#documents">Documenti</a>
+          <a href="#contatti">Contatti</a>
+        </nav>
+        <div class="header-actions">
+          <button id="theme-toggle" class="theme-toggle" aria-label="Cambia tema" title="Tema">
+            <span class="sun">☀️</span>
+            <span class="moon">🌙</span>
+          </button>
+          <button id="nav-toggle" class="nav-toggle" aria-label="Apri menu" aria-expanded="false" aria-controls="site-nav">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top" class="container">
+      <section class="hero surface reveal">
+        <div class="hero-left">
+          <h1 class="display gradient-text">Michele Mezzina</h1>
+          <p class="lead">Leadership, strategia e risultati concreti. Portfolio e pubblicazioni.</p>
+          <div class="cta">
+            <a class="icon-btn" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michele-mezzina-72620861/" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.84-2.2 3.79-2.2 4.05 0 4.8 2.67 4.8 6.14V24h-4v-7.2c0-1.72-.03-3.94-2.4-3.94-2.4 0-2.77 1.87-2.77 3.8V24h-4V8z"/></svg>
+            </a>
+            <a class="btn ghost" href="#documents">Vedi documenti</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="stat">
+            <div class="stat-num">38+<span>anni</span></div>
+            <div class="stat-label">Esperienza</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Quadro</div>
+            <div class="stat-label">Ruolo</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section reveal">
+        <h2 class="section-title"><span>Chi sono</span></h2>
+        <div class="grid-3">
+          <article class="card surface">
+            <h4>Profilo</h4>
+            <ul id="bio-list" class="muted" style="padding-left:18px;margin:0">
+              <li>Quadro presso Colacem S.p.A. (cementeria di Ragusa).</li>
+              <li>Capo Processo Tecnologico, gestione performance e affidabilità impianto.</li>
+              <li>Responsabile del Servizio Prevenzione e Protezione (RSPP).</li>
+              <li>Coordinatore Sistema di Gestione Ambientale e SGSSL.</li>
+              <li>Formatore STOP (Safety Training Observation Program).</li>
+              <li>Iscritto all’albo dei periti industriali di Ragusa (n. 285), abilitato CPI.</li>
+            </ul>
+          </article>
+          <article class="card surface"><h4>Valori</h4><p class="muted">Sicurezza, responsabilità, miglioramento continuo, orientamento ai risultati, lavoro in team.</p></article>
+          <article class="card surface"><h4>Competenze chiave</h4><p class="muted">Processo cementiero, sicurezza impianti, gestione ambientale, qualità, avviamento impianti.</p></article>
+        </div>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <h2 class="section-title"><span>Esperienza</span></h2>
+        <div class="grid-3">
+          <article class="card surface">
+            <h4>Colacem S.p.A. — Quadro</h4>
+            <p class="muted">dicembre 1992 — presente · Galatina · Rassina · Tunisi · Ragusa</p>
+            <ul class="muted">
+              <li>Capo Processo Tecnologico; RSPP; Coordinatore SGA e SGSSL; Formatore STOP.</li>
+              <li>Gestione performance impianto, processo tecnologico, sicurezza e ambiente.</li>
+              <li>2002–2005: Responsabile Impianto Produttivo (Tunisi) — avviamento nuovo impianto.</li>
+              <li>1999–2001: Capo Processo Tecnologico & Resp. Qualità (Rassina, AR).</li>
+              <li>1993–1998: Capo Processo Tecnologico & Resp. Qualità (Galatina, LE).</li>
+            </ul>
+          </article>
+          <article class="card surface">
+            <h4>Italcementi Group — Quadro</h4>
+            <p class="muted">1987 — 1992 · Bergamo · Colleferro · Rezzato · Guardiaregia · Vibo Marina · Catania</p>
+            <ul class="muted">
+              <li>1991–1992: Chimico di stabilimento (Catania).</li>
+              <li>1988–1990: Chimico di stabilimento (Vibo Marina) — avviamento nuovo impianto.</li>
+              <li>1987: Formazione per Chimico di Stabilimento (BG, CLF, RZZ, GRG).</li>
+            </ul>
+          </article>
+          <article class="card surface">
+            <h4>Altre esperienze e formazione</h4>
+            <ul class="muted">
+              <li>1985–1987: Pierregi Impex — Responsabile Produzione (Molfetta).</li>
+              <li>1984–1985: Cosmoplast — Tecnologo e controllo laboratorio (Terlizzi).</li>
+              <li>ITIS Castellana Grotte — Perito chimico (1978–1983).</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <h2 class="section-title"><span>Competenze</span></h2>
+        <div class="grid-3">
+          <article class="card surface"><h4>Processo tecnologico</h4><p class="muted">Ottimizzazione linee di cottura, clinker e macinazione; affidabilità impianto e performance.</p></article>
+          <article class="card surface"><h4>Sicurezza (RSPP)</h4><p class="muted">Sistema di Gestione Salute e Sicurezza, audit, formazione STOP, prevenzione incendi.</p></article>
+          <article class="card surface"><h4>Ambiente & Qualità</h4><p class="muted">SGA, emissioni e conformità, ISO 14001; qualità di processo e prodotto.</p></article>
+        </div>
+      </section>
+
+      <section id="documents" class="section reveal">
+        <h2 class="section-title"><span>Documenti</span></h2>
+        <div class="carousel">
+          <div class="carousel-viewport" id="car-vp">
+            <div id="pdf-list" class="pdf-track" data-files='["1.pdf","2.pdf","3.pdf"]'>
+              <!-- Popolato via JS: miniature + titoli -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contatti" class="section reveal">
+        <h2 class="section-title"><span>Contatti</span></h2>
+        <div class="contact-actions">
+          <a class="icon-btn" href="mailto:m.mezzina@financo.it" aria-label="Email">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 2v.01L12 13 4 6.01V6h16ZM4 18V8.24l7.4 6.16a1 1 0 0 0 1.2 0L20 8.24V18H4Z"/></svg>
+          </a>
+          <a class="icon-btn" href="https://www.linkedin.com/in/michele-mezzina-72620861/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.84-2.2 3.79-2.2 4.05 0 4.8 2.67 4.8 6.14V24h-4v-7.2c0-1.72-.03-3.94-2.4-3.94-2.4 0-2.77 1.87-2.77 3.8V24h-4V8z"/></svg>
+          </a>
+        </div>
+      </section>
+
+      <footer class="footer muted">
+        © <span id="year"></span> Michele Mezzina — Tutti i diritti riservati.
+      </footer>
+    </main>
+
+    <!-- App script (handles PDF.js dynamic import if needed) -->
+    <script src="assets/script.js"></script>
+
+    <!-- Modal viewer for PDF preview -->
+    <div id="pdf-modal" class="modal" aria-hidden="true" role="dialog" aria-label="Anteprima PDF">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-dialog surface">
+        <button class="modal-close" data-close aria-label="Chiudi">×</button>
+        <div class="modal-body">
+          <iframe id="pdf-frame" title="Anteprima documento" loading="lazy" style="position:absolute; inset:0; width:100%; height:100%; border:0; background:#fff"></iframe>
+          <div id="pdf-render" style="position:absolute; inset:0; overflow:auto; display:none; place-items:center; background:#fff"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
